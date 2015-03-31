@@ -1,0 +1,339 @@
+body {
+  font-family: 'Bentham', serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 13pt;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 10px;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Gotham', sans-serif;
+  text-align: center;
+  color: #000000;
+}
+
+h4 {
+  font-size: 30px;
+  font-style: italic;
+  color: #800000;
+}
+
+h5{
+  font-family: 'Gotham', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h6{
+  color: #89665f;
+  font-size: 12pt;
+}
+
+.secondaryColor {
+  color: #808080;
+  font-size: 12pt;
+  font-family: 'Bentham', sans-serif;
+}
+
+ul h6 {
+  color: #800000;
+  font-size: 13pt;
+}
+
+p {
+  font-family: 'Gotham', sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+.wrapper {
+  width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(../images/brickwall.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  height: 100%;
+  width: 100%;
+  float: left;
+  padding: 20px 0;
+}
+
+.header .top-info p {
+  color: white;
+  margin: 0 0 10px 0;
+}
+
+.header p.title,
+.footer p.title {
+  font-size: 13pt;
+  color: white;
+  margin: 0;
+}
+
+.header p + p,
+.footer p + p,
+.hours li p {
+  margin-bottom: 10px;
+}
+
+.hours {
+  width: 31.33%;
+  font-size: 13pt;
+  text-align: right;
+}
+
+.hours,
+.hours li {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  float: right;
+}
+
+.hours li p {
+  color: white;
+  margin-top: 0;  
+}
+ 
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  float: none;
+}
+
+.site-wrapper {
+  margin: 0 auto;
+  height: auto;
+  width: 90%;
+}
+
+.menuTitles {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.restaurant-week {
+  font-family: 'Gotham', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  color: #800000;
+  margin: 0px 0px 10px 0px;
+}
+
+.menuTitles .col2,
+.footer .col2 p {
+  text-align: right;
+}
+
+.menuTitles .col2:last-child p,
+.footer .col2 + .col2 p {
+  text-align: left;
+}
+
+.menu-heading {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.menu-columns {
+  margin-bottom: 20px;
+  float: left;
+}
+
+.menu-columns .column h4 {
+  margin: 0;
+}
+
+.menu-columns .column h5 {
+  margin: 30px 0 6px 0;
+}
+
+.menu-columns .column p {
+  margin: 0 0 8px 0;
+}
+
+.column {
+  width: 31.33%;
+  display: inline-block;
+  float: left;
+}
+
+.column + .column {
+    margin: 0 0 15px 1.5%;
+    float: left;
+}
+
+.column h6{
+  padding-bottom: 10px;
+  color: #000000;
+}
+
+.col2 {
+  width: 47%;
+  display: inline-block;
+}
+
+.col2 p {
+  font-size: 12pt;
+  font-family: 'Gotham';
+  color: white;
+}
+
+.col2 + .col2{
+  float: right;
+}
+
+.winePair{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.winePair p {
+  margin: 0;
+}
+
+
+
+.footer {
+  background-image: url(../images/brickwall.png);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  float: left;
+  padding: 30px 0;
+}
+
+.footerLogo {
+  margin: 20px auto;
+  display: block;
+}
+
+.social-logo {
+  margin: 0 auto;
+  display: block;
+  width: 125px;
+}
+
+.social-logo img {
+  margin: 20px 9px;
+}
+
+img.emailLogo {
+  position: relative;
+  top: -2px;
+}
+
+.footer p {
+  font-family: 'Bentham';
+  display: block;
+  font-size: 13pt;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dayColor {
+  font-family: 'Bentham';
+  color: #000000;
+}
+.info {
+  float: left;
+}
+#map-canvas {
+  height: 400px; 
+  width: 500px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.about {
+  display: block;
+  float: right;
+  margin: 25px 0 0 0;
+}
+
+.about li {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.about h5 {
+  color: #000000;
+  font-family: "Gotham";
+  font-size: 18px;
+  font-weight: 500;
+  margin: 30px 0px 10px 0px;
+}
+
+.about li p {
+  color: white;
+  margin-top: 0;
+  text-align: center;  
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 640px) {
+  .column,
+  .hours,
+  #map-canvas {
+    width: 100%;
+  }
+  #map-canvas {
+    margin: 0 auto;
+    float: none;
+  }
+  .column + .column {
+    margin: 45px 0 0 0;
+  }
+  .info {
+    float: none;
+    text-align: center;
+  }
+  .about {
+    margin: 25px 0;
+    padding: 0;
+    float: right;
+    text-align: center;
+  }
+  .winePair {
+    margin: 0;
+  }
+  .menuTitles p {
+    margin: 0 0 10px 0;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width : 600px) {
+  .site-wrapper {
+    
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .site-wrapper {
+    max-width: 1000px;
+  }
+}
+
+
+
+
+
